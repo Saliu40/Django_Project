@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul>
+        <li>
+          <div> 
+            <!-- # latest['author']
+              # latest['title']
+              # latest['url']
+              # latest['articles'] -->
+            {% for lastest_news in articles %}
+              <div>
+                    <h3>{{ lastest_news.author}}</h3>
+                    <div>{{ lastest_news.articles}}</div>
+                     <h3></h3>
+              </div>
+              <div>{{ lastest_news.url }}</div>
+             
+              
+            {% endfor%}
+  
+          </div>
+          
+        </li>

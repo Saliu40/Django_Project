@@ -1,0 +1,6 @@
+#Templates folder was manually created under the app
+#we create another folder inside  the templates (the folder can be given any name)
+#inside the new folder we create: about.html, news.html, & index.html files.
+#we open those html files and type (doc and enter) that command authomatically populate the file with html syntax
+#between the two body, place Ur cursor and type h1 then hit enter, this will apear (<h1></h1>), then U can write this words inside (<h1>this is the news page</h1>)
+#repeat same process in all the html files.
