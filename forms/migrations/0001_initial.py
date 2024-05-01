@@ -12,16 +12,16 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='NewsModel',
+            name='MyModel',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('description', models.CharField(max_length=1000, null=True)),
-                ('title', models.CharField(max_length=1000, null=True)),
-                ('url', models.CharField(max_length=1000, null=True)),
-                ('content', models.CharField(max_length=1000, null=True)),
+                ('fname', models.CharField(max_length=100)),
+                ('lname', models.CharField(max_length=100)),
+                ('country', models.CharField(max_length=100)),
+                ('email', models.CharField(max_length=100)),
             ],
             options={
-                'db_table': 'blog',
+                'db_table': 'register',
             },
         ),
     ]
